@@ -1,14 +1,14 @@
-# Express.js S3 File Upload App
+# S3 - Digital Ocean Spaces
 
 #### Features
 
-- Upload files to an Amazon S3 bucket.
-- Serve static files from the "public" directory.
-- File metadata, such as the original name and content type, is preserved when uploading.
+- Upload files to S3 with DigitalOcean (DO).
+- Access static files in the "public" directory.
+- Preserves file metadata during upload.
 
 #### Prerequisites
 
-- [DigitalOcean Spaces Object Storage](https://www.digitalocean.com/products/spaces)
+- [DO Object Storage](https://www.digitalocean.com/products/spaces)
 - [Node.js](https://nodejs.org/en)
 
 #### Getting started
@@ -25,10 +25,6 @@ To start the application, use the following command:
 npm start
 ```
 
-#### Contributing
-
-If you want to contribute to this project, please follow the standard GitHub fork and pull request workflow. Feel free to open issues for any feature requests, bug reports, or suggestions.
-
-#### License
-
-This project is licensed under the MIT License
+#### Contributing & License
+- **Contribute**: Follow GitHub's standard fork workflow 
+- **License**: MIT License.
