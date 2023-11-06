@@ -1,8 +1,8 @@
 import express from "express";
 
 import { bucketName, port } from "./config.js";
-import { s3Client } from "./utils/aws.js";
-import { upload } from "./utils/multer.js";
+import { s3Client } from "./aws/r2.js";
+import { upload } from "./multer.js";
 import { PutObjectCommand } from "@aws-sdk/client-s3";
 
 const app = express();
