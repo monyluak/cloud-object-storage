@@ -1,17 +1,18 @@
-# S3 - Digital Ocean Spaces
+# Cloud Object Storage
 
-#### Features
+Boilerplate for cloud object storage uploads using DigitalOcean Spaces & Cloudflare R2
 
-- Upload files to S3 with DigitalOcean (DO).
-- Access static files in the "public" directory.
-- Preserves file metadata during upload.
+## Features
 
-#### Prerequisites
+- Serve static files from the "public" directory.
+- Preserve file metadata during upload.
 
-- [DO Object Storage](https://www.digitalocean.com/products/spaces)
+## Prerequisites
+
 - [Node.js](https://nodejs.org/en)
+- [DigitalOcean Spaces](https://docs.digitalocean.com/products/spaces/) or [Cloudflare R2](https://developers.cloudflare.com/r2/) account
 
-#### Getting started
+## Getting started
 
 Install dependencies
 
@@ -25,6 +26,6 @@ To start the application, use the following command:
 npm start
 ```
 
-#### Contributing & License
-- **Contribute**: Follow GitHub's standard fork workflow 
-- **License**: MIT License.
+## License
+
+MIT License.
