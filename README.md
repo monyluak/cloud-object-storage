@@ -1,7 +1,7 @@
 # Cloud Object Storage
 
-Boilerplate for cloud object storage uploads using DigitalOcean Spaces & Cloudflare R2
-
+ DigitalOcean Spaces | Cloudflare R2. 
+ 
 ## Features
 
 - Serve static files from the "public" directory.
